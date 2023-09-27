@@ -40,11 +40,6 @@ a {
   color: var(--primary-color);
 }
 
-/*
-a:hover {
-  color: var(--secondary-color);
-}*/
-
 body {
   font-family: var(--font-family);
   font-size: 20px;
@@ -92,6 +87,7 @@ nav ul li a:hover {
   color: var(--secondary-color);
   font-weight: var(--bold-font);
   border-bottom: 2px solid var(--secondary-color);
+  text-shadow: 3px 3px 5px #FFFFFF30;
 }
 
 nav ul {
@@ -112,17 +108,16 @@ nav ul li {
   display: none;
 }
 
-.hero {
+.about-me-content {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 100px;
   max-width: 120rem;
-  margin: auto;
   height: 100vh;
 }
 
-.hero img {
+.about-me-content img {
   max-height: 60%;
   max-width: 60%;
 }
@@ -136,7 +131,7 @@ nav ul li {
 .bio h1 {
   margin-bottom: 20px;
   color: var(--primary-color);
-  font-weight: var(--normal-font);
+  font-weight: var(--bold-font);
   font-size: 36px;
 }
 
@@ -155,115 +150,99 @@ nav ul li {
   margin-bottom: 20px;
 }
 
-/* ul.bio-buttons-contact li {
-  padding: 20px;
-} */
-
-/* ul.bio-buttons-contact li.linkedin a:hover {
-  background: url("assets/icons/linkedin-white-30x30.png");
-} */
-
-/* .linkedin:hover {
-  background: url("assets/icons/linkedin-white-30x30.png");
-} */
-
-/* #linkedin {
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
-  display: inline-block;
-  background-image: url('../icons/linkedin-button.png');
-  background-size:contain;
-  background-repeat: no-repeat;
-  background-position: 0 0;
+.bio-buttons-contact {
+  float: left;
+  margin-right: 20px;
 }
-
-#linkedin:hover {
-  background-position: 0 -50px;
-} */
-
-/* ul.menu {
-  list-style-type: none;
-}
-ul.menu li {
-  padding: 5px;
-  color: #FFFFFF;
-} */
-
-/* .bio-buttons-contact {
-  align-items: left;
-  align-content: left;
-  text-align: left;
-} */
 
 #linkedin {
   height: 50px;
   line-height: 50px;
   display: inline-block;
-  padding-left: 60px; /* To sift text off the background-image */
-  /* color: #3E789F; */ 
-  background: url("../icons/linkedin-button.png") no-repeat; /* As all link share the same background-image */
+  padding-left: 50px; 
+  background: url("../icons/linkedin-button.png") no-repeat; 
 }
 
-/* ul.menu li.firefox a {
-  background-position: 0 0;
-}
-ul.menu li.chrome a {
-  background-position: 0 -100px;
-} */
+#linkedin:hover {
+  background-position: 0 -50px;
+} 
 
-/* .bio-buttons {
-  display: inline-block;
+#github {
   height: 50px;
-  width: 50px;
-  border-radius: 50%;
-  background-color: var(--primary-color);
-  align-items: center;
-  cursor: pointer;
-} */
-
-/* .more-about {
-  background-color: var(--bg-color);
-  padding: 1rem 6rem;
+  line-height: 50px;
+  display: inline-block;
+  padding-left: 50px; 
+  background: url("../icons/github-button.png") no-repeat; 
 }
 
-.more-about h2 {
-  margin-bottom: var(--bottom-margin);
-  text-align: center;
+#github:hover {
+  background-position: 0 -50px;
 }
 
-.more-about p {
-  line-height: var(--line-height);
-  padding: 0.4rem;
-} */
+#resume {
+  height: 50px;
+  line-height: 50px;
+  display: inline-block;
+  padding-left: 175px; 
+  background: url("../icons/resume-button.png") no-repeat; 
+}
+
+#resume:hover {
+  background-position: 0 -50px;
+}
 
 .skills {
-  max-width: 68.75rem;
+  max-width: 1200px;
   margin: auto;
   text-align: center;
   margin-top: 5rem;
+  height: 100vh
 }
 
 .skill-header {
-  margin-bottom: 1rem;
+  margin-bottom: 100px;
   color: var(--primary-color);
+  font-weight: var(--bold-font);
+  font-size: 36px;
+}
+
+.skills-wrapper {
+  gap: 100px;
 }
 
 .skills-wrapper img {
-  padding: 1.25rem;
-}
-
-.icon {
-  width: 11.875rem;
-  height: 11.25rem;
-}
-
-.icon-card {
+  padding: 1rem;
   background-color: #fff;
-  border-radius: 11px;
-  box-shadow: 0 3px 10px var(--secondary-shadow);
+}
+
+.skill {
+  width: 200px;
+  height: 230px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 3px 10px var(--primary-shadow);
   padding: 20px;
   margin: 10px;
+  justify-content: center;
+}
+
+.skill-detail {
+  background-color: #ffffff;
+  color: #000000;
+  font-weight: var(--bold-font);
+  font-size: 20px; 
+}
+
+.set-of-five {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
 }
 
 .projects {
