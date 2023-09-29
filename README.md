@@ -2,10 +2,16 @@
 
 Acknowledgements
 
-https://www.freecodecamp.org/news/how-to-build-a-developer-portfolio-website/
+basic framework: https://www.freecodecamp.org/news/how-to-build-a-developer-portfolio-website/
 
-https://coolors.co/03045e-90e0ef-0077b6-00b4d8-caf0f8
+colour scheme: https://coolors.co/000000-0a1128-1282a2-ffffff
 
-https://fonts.google.com/specimen/Poppins?sort=popularity
+slideshow: https://www.w3schools.com/howto/howto_js_slideshow.asp
 
-https://www.w3schools.com/howto/howto_js_slideshow.asp
+logos: https://commons.wikimedia.org/ 
+
+icons and logos: https://www.flaticon.com/authors/freepik
+
+font: https://fonts.google.com/specimen/Source+Code+Pro
+
+sprites: https://www.tutorialrepublic.com/css-tutorial/css-sprites.php
