@@ -424,7 +424,7 @@ nav ul li {
 
 .project-description {
   line-height: var(--line-height);
-  text-align: justify;
+  text-align: left;
 }
 
 .project-description a {
