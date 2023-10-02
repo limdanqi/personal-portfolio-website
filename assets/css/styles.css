@@ -526,7 +526,8 @@ footer {
   line-height: 60px;
   display: inline-block;
   padding-left: 60px; 
-  background: url("../icons/up-arrow.png") no-repeat; 
+  background: url("../icons/scroll-up-btn.png") no-repeat; 
+  background-color: transparent;
 }
 
 #up-arrow:hover {

@@ -1,6 +1,24 @@
-# PersonalPortfolioWebsite
+# Personal Portfolio Website
+This website was built by me to showcase my skills and projects to potential recruiters. A link to the live website is [here](limdanqi.com). A Figma prototype is also created [here](https://www.figma.com/file/KXxARJn2gs3H2bl9c6Qzzu/prototype-v0?type=design&node-id=0%3A1&mode=design&t=32mPNf1jdt1TOABc-1)
+.
+![landing page](./assets/images/portfolio.png)
 
-Acknowledgements
+## Tech Stack
+* Microsoft Visual Studio Code
+* HTML
+* CSS
+* Vanilla JavaScript
+* Figma
+
+## Planned Improvements
+* Make website responsive on all devices
+* Organise code
+* Cosmetic fixes
+    * Scroll up button does not have transparent background
+    * Improving UI of slides container
+    * Fixing slides height such that the height of each project remain fixed even if the images have different heights
+
+## Acknowledgements
 
 basic framework: https://www.freecodecamp.org/news/how-to-build-a-developer-portfolio-website/
 
